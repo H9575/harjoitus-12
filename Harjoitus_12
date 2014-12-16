@@ -1,0 +1,47 @@
+/*	Jani Kähkönen/H9575
+Harjoitus_12	20.9.2014	*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int luku=0;
+
+	cout << "Aseta numero 6\n";
+	cin >> luku;
+
+	if (luku == 6)
+	{
+		for (int a = 0; a < 1; a++)
+		{
+			cout << "1";
+		}
+		cout << "\n";
+		for (int b = 0; b < 2; b++)
+		{
+			cout << "2";
+		}
+		cout << "\n";
+		for (int c = 0; c < 3; c++)
+		{
+			cout << "3";
+		}
+		cout << "\n";
+		for (int d = 0; d < 4; d++)
+		{
+			cout << "4";
+		}
+		cout << "\n";
+		for (int e = 0; e < 5; e++)
+		{
+			cout << "5";
+		}
+		cout << "\n";
+		for (int f = 0; f < 6; f++)
+		{
+			cout << "6";
+		}
+		cout << "\n";
+	}
+}
